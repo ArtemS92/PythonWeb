@@ -25,6 +25,7 @@
           <option value="list.split" />
           <option value="super.value" />
           <option value="Models.Model.Model.__add__" />
+          <option value="list.items" />
         </list>
       </option>
     </inspection_tool>
