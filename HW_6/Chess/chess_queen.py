@@ -42,8 +42,8 @@ def successful_position(count_successful):
         count_iter += 1
         i = 0
         while i < n:
-            x = rnd(1, n+1)
-            y = rnd(1, n+1)
+            x = rnd(1, n + 1)
+            y = rnd(1, n + 1)
             if [x, y] not in position:
                 position.append([x, y])
                 i += 1
@@ -54,4 +54,5 @@ def successful_position(count_successful):
         position.clear()
 
 
-successful_position(4)
+if __name__ == "__main__":
+    successful_position(4)
